@@ -1,0 +1,27 @@
+*{
+    background-color: rgb(236, 182, 22);
+}
+.content{
+    display: flex;
+   
+}
+h1{
+    text-align: center;
+}
+.div1{
+    margin: 50px;
+    border: 10px solid black;
+
+}
+.div2{
+    margin: 50px;
+    border: 10px solid black;    
+}
+img{
+    width: 300px;
+}
+.div3{
+    margin: 50px;
+    border: 10px solid black;
+    
+}
