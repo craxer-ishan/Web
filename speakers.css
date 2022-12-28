@@ -11,17 +11,37 @@ h1{
 .div1{
     margin: 50px;
     border: 10px solid black;
+    text-align: center;
 
 }
 .div2{
     margin: 50px;
-    border: 10px solid black;    
+    border: 10px solid black; 
+    text-align: center;
+   
 }
+
 img{
     width: 300px;
+
 }
 .div3{
     margin: 50px;
     border: 10px solid black;
-    
+    text-align: center;
+
 }
+@media screen and (max-width: 768px) {
+    .content-wrapper {
+      padding-bottom: 50px;
+    }
+  
+    .content-wrapper,
+    figure {
+      width: 100%;
+    }
+  
+    figure {
+      height: 300px;
+    }
+  }
